@@ -21,8 +21,17 @@ target/release/vm <FILE>
 target/release/inspect <FILE>
 ```
 
+Команда для запуска ассемблера:
+```
+target/release/asm <SOURCE> <OUTPUT>
+```
+
 ## Ссылки
 
 * [Описание инструкций](docs/instructions.md)
+* [Описание ассемблера](docs/assembler.md)
 * [Описание формата исполняемых файлов](docs/binfile.md)
 * [Hello, world!](examples/hello-world)
+* [Фибоначчи (цикл)](examples/fib-loop)
+* [Фибоначчи (рекурсия)](examples/fib-rec)
+* [Printf](examples/printf)
